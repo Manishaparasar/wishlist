@@ -1,0 +1,127 @@
+/* new.module.css */
+
+.cartcontainer {
+    display: flex;
+    flex-direction: column;
+    /* Stack cart items vertically */
+    padding: 20px;
+    /* Space around container */
+}
+
+.cartitem {
+    display: flex;
+    /* Flex layout for cart items */
+    position: relative;
+    /* Position relative for heart icon */
+    align-items: flex-start;
+    /* Align items at the start */
+    padding: 15px;
+    /* Padding for cart items */
+    border-bottom: 1px solid #e0e0e0;
+    /* Light gray border */
+    border-radius: 8px;
+    /* Rounded corners */
+    background-color: #fff;
+    /* White background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+    transition: transform 0.2s;
+    /* Smooth transition for hover effect */
+}
+
+.cartitem img {
+    object-fit: contain;
+    /* Ensure image fits well */
+    margin-right: 15px;
+    /* Space between image and details */
+}
+
+.heart {
+    position: absolute;
+    /* Position absolutely */
+    right: 10px;
+    /* Position heart image to the right */
+    top: 10px;
+    /* Position heart image from the top */
+    z-index: 1;
+    /* Ensure heart is on top of other elements */
+    width: 24px;
+    /* Set size for the heart icon */
+    height: 24px;
+    /* Set height for the heart icon */
+}
+
+.paragraph {
+    color: rgba(47, 53, 103, 1);
+    /* Text color */
+    font-size: 14px;
+    /* Font size */
+    margin-bottom: 5px;
+    /* Space below */
+    overflow-wrap: break-word;
+    /* Allow breaking of long words */
+    word-wrap: break-word;
+    /* For older browsers */
+    hyphens: auto;
+    /* Allow hyphenation */
+}
+
+.price {
+    color: #ff5722;
+    /* Color for the price */
+    margin-right: 10px;
+    /* Space between price and original price */
+}
+
+.alt {
+    color: rgba(74, 76, 95, 1);
+    /* Gray color for original price */
+    text-decoration: line-through;
+    /* Strike-through */
+    margin-right: 10px;
+    /* Space between original price and buttons */
+}
+
+.cartbuttons {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    /* Flex layout for buttons */
+    font-size: 12px;
+    /* Font size for buttons */
+    gap: 10px;
+    /* Space between buttons */
+}
+
+.cartbuttons button {
+    padding: 10px;
+    /* Padding for buttons */
+    border-radius: 4px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    flex: 1;
+    /* Equal width for buttons */
+}
+
+.addtcart {
+    border: 2px solid rgba(255, 111, 63, 1);
+    /* Border for Add to Cart */
+    color: rgba(255, 111, 63, 1);
+    /* Text color for Add to Cart */
+}
+
+.buynow {
+    border: none;
+    /* Remove border */
+    background: rgba(255, 111, 63, 1);
+    /* Background color for Buy Now */
+    color: white;
+    /* White text color */
+}
+
+.buynow:hover,
+.addtcart:hover {
+    opacity: 0.9;
+    /* Slightly reduce opacity on hover */
+}

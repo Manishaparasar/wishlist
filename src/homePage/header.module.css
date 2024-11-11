@@ -1,0 +1,97 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 10px;
+
+}
+
+.imageContainer {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.headerImage {
+
+    margin-right: 10px;
+
+}
+
+.headerContainer h3 {
+    color: rgba(47, 53, 103, 1);
+
+    margin: 0;
+
+}
+
+.bellContainer {
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    border-radius: 50%;
+    /* This makes the element fully rounded */
+    border: 2px solid rgba(241, 241, 241, 1);
+    /* Set border thickness and color */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+/* .bellContainer {
+    width: 24px;
+    height: 24px;
+
+
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+
+
+    position: relative;
+    border: 2px solid rgba(241, 241, 241, 1);
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+
+} */
+
+
+
+.dot {
+    position: absolute;
+
+    top: -5px;
+
+    right: -5px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: rgba(70, 205, 128, 1);
+
+    border-radius: 50%;
+
+}
+
+
+.headerContainer {
+    padding: 10px;
+
+}
+
+
+
+
+.dot {
+    width: 10px;
+
+    height: 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+
+}

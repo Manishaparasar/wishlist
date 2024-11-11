@@ -1,0 +1,52 @@
+.couponCard {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    width: 200px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.discountSection {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6b6b;
+    margin-bottom: 8px;
+}
+
+.couponContent {
+    margin: 8px 0;
+}
+
+.couponCode {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+}
+
+.copyButton {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.seeAllButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+}

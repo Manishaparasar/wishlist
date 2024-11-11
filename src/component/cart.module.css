@@ -1,0 +1,154 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    background-color: #ffffff;
+    padding: 50px;
+
+    /* Adjusts the margin to padding for uniform spacing */
+}
+
+.profileContainer {
+    /* margin-top: 200px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    max-width: 335px;
+    height: auto;
+    /* Allows the cart to adjust its height */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.heartIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.cartContent {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex: 1;
+}
+
+.textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productTitle {
+    font-size: 14px;
+    width: 90px;
+    margin-bottom: 4px;
+    padding: 8px 0;
+    color: rgba(255, 111, 63, 1);
+    background: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+    text-align: center;
+    opacity: 1;
+}
+
+.textContainer p {
+    font-size: 12px;
+    margin: 0;
+    color: rgba(44, 53, 103, 1);
+}
+
+.priceContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priceBefore {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: line-through;
+    /* Adds a strikethrough for discounted prices */
+}
+
+.discount {
+    font-size: 12px;
+    background: rgba(44, 53, 103, 1);
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.cartButtons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.addToCart,
+.buyNow {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.addToCart {
+    color: rgba(255, 111, 63, 1);
+    border: 1px solid rgba(255, 111, 63, 1);
+    background-color: transparent;
+}
+
+.buyNow {
+    background: rgba(255, 111, 63, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.addToCart:hover {
+    background-color: rgba(255, 111, 63, 0.1);
+}
+
+.buyNow:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 111, 63, 1);
+    border: 1px solid rgba(255, 111, 63, 1);
+}

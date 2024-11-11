@@ -1,0 +1,168 @@
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header img {
+    width: 50px;
+    /* Adjust based on your design */
+    margin: 10px 0;
+}
+
+.header p {
+    font-size: 16px;
+    color: #555;
+    /* Darker gray for subtitle */
+}
+
+.form {
+    max-width: 600px;
+    /* Limit the form width */
+    margin: 0 auto;
+    /* Center the form */
+    padding: 20px;
+    /* Padding around the form */
+    border: 1px solid #ccc;
+    /* Light border around the form */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    background-color: #fff;
+    /* White background for the form */
+}
+
+.form p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="tel"],
+.form input[type="email"] {
+    width: 100%;
+    /* Full width */
+    padding: 10px;
+    /* Padding inside input */
+    margin: 10px 0;
+    /* Space between inputs */
+    border: 1px solid #ccc;
+    /* Border for inputs */
+    border-radius: 4px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Font size */
+}
+
+.form input[type="text"]:focus,
+.form input[type="tel"]:focus,
+.form input[type="email"]:focus {
+    border-color: #007bff;
+    /* Change border color on focus */
+    outline: none;
+    /* Remove default outline */
+}
+
+.panContainer,
+.uploadContainer {
+    display: flex;
+    /* Use flexbox for alignment */
+    align-items: center;
+    /* Center items vertically */
+    margin: 10px 0;
+    /* Space between sections */
+}
+
+.uploadContainer {
+    flex-direction: column;
+    /* Stack items vertically in upload container */
+}
+
+.uploadContainer label {
+    font-weight: bold;
+    /* Bold label for upload */
+    margin-bottom: 5px;
+    /* Space below label */
+}
+
+.photoOptions {
+    display: flex;
+    /* Flexbox for photo options */
+    align-items: center;
+    /* Center items */
+}
+
+.takePhotoButton {
+    display: flex;
+    /* Flexbox for button */
+    align-items: center;
+    /* Center icon and text */
+    background-color: #007bff;
+    /* Button color */
+    color: white;
+    /* Button text color */
+    padding: 10px 15px;
+    /* Padding */
+    border: none;
+    /* Remove default border */
+    border-radius: 4px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer on hover */
+    margin-left: 10px;
+    /* Space between input and button */
+    transition: background-color 0.3s;
+    /* Smooth background color transition */
+}
+
+.takePhotoButton:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+.imagePreview {
+    margin-top: 10px;
+    /* Space above the image preview */
+    max-width: 100%;
+    /* Responsive image */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.submitButton {
+    width: 100%;
+    /* Full width for submit button */
+    padding: 10px;
+    /* Padding */
+    margin-top: 20px;
+    /* Space above button */
+    background-color: #28a745;
+    /* Green button */
+    color: white;
+    /* White text */
+    border: none;
+    /* Remove default border */
+    border-radius: 4px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Font size */
+    cursor: pointer;
+    /* Pointer on hover */
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+
+.submitButton:hover {
+    background-color: #218838;
+    /* Darker green on hover */
+}
+
+span {
+    color: red;
+    /* Color for incomplete profile text */
+}

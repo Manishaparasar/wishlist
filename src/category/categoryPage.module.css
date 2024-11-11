@@ -1,0 +1,179 @@
+ .categorycontainer {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: auto auto auto;
+     gap: 20px;
+     padding: 20px;
+
+ }
+
+ .heading {
+
+
+     padding-left: 16px;
+     gap: 0px;
+     opacity: 0px;
+
+     color: rgba(47, 53, 103, 1);
+
+ }
+
+ .paragraph {
+     color: rgba(255, 215, 202, 1);
+
+ }
+
+ .paragraph1 {
+
+     color: rgba(150, 154, 190, 1);
+ }
+
+ .Frame {
+     width: 100%;
+ }
+
+ .box {
+
+
+     border-radius: 8px;
+
+     padding: 15px;
+
+     display: flex;
+
+     justify-content: space-between;
+
+     align-items: center;
+
+ }
+
+
+
+ .box1 {
+
+     background: rgba(56, 62, 117, 1);
+     color: rgba(150, 154, 190, 1);
+     grid-column: 1;
+     grid-row: 1;
+
+ }
+
+ .box2 {
+
+
+     background: rgba(202, 255, 225, 1);
+     width: 156px;
+     height: 87px;
+
+     grid-column: 1;
+     grid-row: 2;
+ }
+
+ .box3 {
+     background: rgba(255, 232, 224, 1);
+     grid-column: 1;
+     grid-row: 2;
+     width: 156px;
+     height: 87px;
+ }
+
+
+ .text {
+
+
+     width: 122px;
+     height: 20px;
+
+     margin-left: 32px;
+     gap: 0px;
+     opacity: 0px;
+
+     background: none;
+     color: rgba(255, 255, 255, 1);
+
+ }
+
+ .textPhone {
+
+     background: none;
+     color: rgba(255, 255, 255, 1);
+ }
+
+ .box4 {
+     background: (255, 111, 63, 1);
+     grid-column: 1;
+     grid-row: 3;
+     color: rgba(255, 215, 202, 1);
+     background-color: rgba(255, 111, 63, 1);
+ }
+
+ .categorycontainer>div:nth-child(2) {
+     display: flex;
+
+     justify-content: space-between;
+
+ }
+
+
+
+ .boximage {
+     margin-left: 50px;
+     background: none;
+     height: auto;
+
+
+ }
+
+ .boxtext,
+ p {
+     background: none;
+     width: 60%;
+     margin: 0;
+     font-size: 14px;
+     color: #555;
+     text-align: left;
+ }
+
+ h4 {
+
+     color: rgba(47, 53, 103, 1);
+
+ }
+
+ .boxtext {
+     color: rgba(47, 53, 103, 1);
+
+     font-size: 18px;
+     font-weight: bold;
+ }
+
+ .box {
+
+     position: relative;
+
+ }
+
+ .text,
+ .boxtext,
+ .textPhone {
+     position: absolute;
+
+     top: 10px;
+
+     left: 17px;
+
+ }
+
+ .container {
+     display: flex;
+     align-items: center;
+
+ }
+
+
+
+ .heading {
+     font-size: 24px;
+     margin-right: 20px;
+
+ }

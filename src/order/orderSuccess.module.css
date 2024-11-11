@@ -1,0 +1,107 @@
+/* .box {
+
+
+    width: 187px;
+    height: 36px;
+
+    left: 86px;
+    gap: 0px;
+    opacity: 0px;
+    font-weight: 600px;
+    font-size: 18px;
+    color: rgba(47, 53, 103, 1);
+}
+
+.box2 {
+    width: 224px;
+    height: 32px;
+    top: 364px;
+    left: 67px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.main {
+    width: 124px;
+    height: 124px;
+    margin-top: 156px;
+    left: 117px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+button {
+    background: rgba(255, 111, 63, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    width: 328px;
+    height: 48px;
+
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+}
+
+p {
+    color: rgba(74, 76, 95, 1);
+}
+
+span {
+    color: rgba(255, 111, 63, 1);
+} */
+
+.box {
+    width: 100%;
+    /* Responsive width */
+    max-width: 187px;
+    /* Maintain the original max width */
+    height: 36px;
+    font-weight: 600;
+    /* Remove 'px' */
+    font-size: 18px;
+    color: rgba(47, 53, 103, 1);
+    margin: 10px auto;
+    /* Center and add spacing */
+    text-align: center;
+}
+
+.box2 {
+    width: 100%;
+    /* Responsive width */
+    max-width: 224px;
+    height: 32px;
+    margin: 10px auto;
+}
+
+.main {
+    width: 100%;
+    max-width: 124px;
+    height: 124px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: rgba(255, 111, 63, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    width: 100%;
+    max-width: 328px;
+    /* Maintain original width limit */
+    height: 48px;
+    border-radius: 8px;
+    /* Clean up border-radius */
+    display: block;
+    margin: 20px auto;
+}
+
+p {
+    color: rgba(74, 76, 95, 1);
+    text-align: center;
+    /* Center text */
+}
+
+span {
+    color: rgba(255, 111, 63, 1);
+}

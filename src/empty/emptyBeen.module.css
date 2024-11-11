@@ -1,0 +1,43 @@
+.emptyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    text-align: center;
+}
+
+.emptyImage {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.emptyTitle {
+    margin: 20px 0 10px;
+    font-size: 24px;
+}
+
+.emptyDescription {
+    color: rgba(128, 128, 128, 1);
+    margin: 10px 0;
+}
+
+.backButton {
+    display: block;
+    margin-top: 10px;
+    border: none;
+    width: 328px;
+    height: 50px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(255, 111, 63, 1);
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.backButton:hover {
+    background: rgba(255, 91, 43, 1);
+}
